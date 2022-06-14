@@ -13,6 +13,8 @@ public class WorldPopulation_Day1 {
 	static WebDriver driver;
 	
 	public static void main(String[] args) throws InterruptedException {
+		//This program prints current , today's and this year's population.
+		
 		
 		String xpath_current_pop = "//div[@class='maincounter-number']/span[@class='rts-counter']";
 		String xpath_today_pop = "//div[text()='Today']//parent::div//span[@class='rts-counter']";
