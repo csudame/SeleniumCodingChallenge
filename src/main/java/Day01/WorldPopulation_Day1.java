@@ -21,7 +21,7 @@ public class WorldPopulation_Day1 {
 		String xpath_thisyear_pop = "//div[text()='This year']//parent::div//span[@class='rts-counter']";
 		
 		String xpath_today_thisYear_pop = "//div[text()='This year' or text()='Today']//parent::div//span[@class='rts-counter']";
-		
+		System.out.println("Starting Selenium test");
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 
